@@ -7,7 +7,7 @@ Welcome to **Anti-BAD-MM: An Anti-Backdoor Challenge for Post-Trained Multimodal
 
 Modern multimodal models now connect vision, language, retrieval, dialogue, and generation. Many developers rely on public model hubs and shared models, but downloaded models may carry hidden backdoor behaviors: they act normally on clean inputs, yet produce attacker-specified outputs under specific conditions.
 
-Anti-BAD-MM extends the original **Anti-BAD Challenge** from post-trained large language models to multimodal models. The goal is to develop lightweight model-cleaning methods that produce deployable models while preserving normal utility and suppressing malicious behavior, under realistic constraints: no access to training data, no known trigger patterns, and no clean reference model.
+Anti-BAD-MM extends the original <a href="https://anti-bad.github.io/" target="_blank" rel="noopener"><strong>Anti-BAD Challenge</strong></a> from post-trained large language models to multimodal models. The goal is to develop lightweight model-cleaning methods that produce deployable models while preserving normal utility and suppressing malicious behavior, under realistic constraints: no access to training data, no known trigger patterns, and no clean reference model.
 
 ---
 
