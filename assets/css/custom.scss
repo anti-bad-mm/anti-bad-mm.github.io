@@ -357,12 +357,34 @@ body {
 .organizer-card a.organizer-name {
     color: #334155;
     text-decoration: none;
+    position: relative;
+    padding-bottom: 0.18rem;
     transition: color 0.2s ease;
+}
+
+.organizer-card a.organizer-name::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 2px;
+    background: #94a3b8;
+    border-radius: 999px;
+    transform: scaleX(0);
+    transform-origin: center;
+    transition: transform 0.2s ease, background 0.2s ease;
 }
 
 .organizer-card a.organizer-name:hover,
 .organizer-card a.organizer-name:focus {
     color: #111827;
+}
+
+.organizer-card a.organizer-name:hover::after,
+.organizer-card a.organizer-name:focus::after {
+    background: #111827;
+    transform: scaleX(1);
 }
 
 @media (max-width: 640px) {
