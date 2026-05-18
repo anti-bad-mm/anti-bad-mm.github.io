@@ -1,0 +1,19 @@
+title: "Anti-BAD-MM Challenge"
+email: antibadmm-competition@googlegroups.com
+description: "An anti-backdoor challenge for post-trained multimodal models."
+baseurl: ""
+url: ""
+
+navigation:
+  Home: "/"
+  Challenge: "/challenge/"
+  "Important Dates": "/timeline/"
+  "Getting Started": "/startkit/"
+  Leaderboards: "/leaderboards/"
+  "Terms & FAQs": "/rules/"
+
+markdown: kramdown
+theme: jekyll-theme-cayman
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
