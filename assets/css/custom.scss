@@ -303,10 +303,12 @@ body {
 }
 
 .organizer-grid {
-    display: grid;
-    grid-template-columns: repeat(5, 180px);
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 3rem 2.5rem;
+    max-width: 1060px;
+    margin: 0 auto;
 }
 
 .organizer-card {
@@ -389,7 +391,7 @@ body {
 
 @media (max-width: 1100px) {
     .organizer-grid {
-        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+        max-width: none;
     }
 }
 
@@ -399,7 +401,6 @@ body {
     }
 
     .organizer-grid {
-        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
         gap: 2.2rem 1.5rem;
     }
 
