@@ -54,28 +54,28 @@ More detailed metric definitions will be published with the challenge rules and 
 <table class="timeline-table">
   <tbody>
     <tr>
-      <td>Registration opens</td>
-      <td>June 30, 2026</td>
+      <td>Competition setup phase</td>
+      <td>August -- November 1, 2026</td>
     </tr>
     <tr>
-      <td>Development phase starts</td>
-      <td>July 13, 2026</td>
+      <td>Phase 1 starts</td>
+      <td>November 2, 2026</td>
     </tr>
     <tr>
-      <td>Development phase ends</td>
-      <td>October 13, 2026</td>
+      <td>Phase 1 ends</td>
+      <td>February 1, 2027</td>
     </tr>
     <tr>
-      <td>Test phase starts</td>
-      <td>October 14, 2026</td>
+      <td>Phase 2 starts</td>
+      <td>February 3, 2027</td>
     </tr>
     <tr>
-      <td>Test phase ends</td>
-      <td>October 21, 2026</td>
+      <td>Phase 2 ends</td>
+      <td>February 10, 2027</td>
     </tr>
     <tr>
-      <td>Winner announcement</td>
-      <td>October 30, 2026</td>
+      <td>Final results and awards</td>
+      <td>February 24, 2027</td>
     </tr>
   </tbody>
 </table>
@@ -91,6 +91,10 @@ These dates are provisional and may be updated before the official launch.
     <article class="organizer-card">
       <img class="organizer-photo" src="assets/photos/weijun_li.png" alt="Portrait of Weijun Li">
       <a class="organizer-name" href="https://weijun-l.github.io/" target="_blank" rel="noopener">Weijun Li</a>
+    </article>
+    <article class="organizer-card">
+      <img class="organizer-photo" src="assets/photos/abid_ali.png" alt="Portrait of Abid Ali">
+      <a class="organizer-name" href="https://github.com/abidmeeraj" target="_blank" rel="noopener">Abid Ali</a>
     </article>
     <article class="organizer-card">
       <div class="organizer-photo organizer-initials" aria-hidden="true">TC</div>
